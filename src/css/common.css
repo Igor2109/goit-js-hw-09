@@ -9,10 +9,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
-  line-height: 1.5;
+  line-height: 2.5;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.timer {
+  margin-top: 20;
+  display: flex;
+  gap: 20;
+  color: rgb(17, 67, 67);
+}
+
+.field {
+  background-color: rgb(228, 228, 212);
+  border-radius: 50;
+  width: 100%;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  color: chocolate;
+  font-size: 50;
+}
+.label {
+  font-size: 20;
 }
